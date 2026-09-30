@@ -1,0 +1,31 @@
+{
+  "name": "node-express-typeorm-a2",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backend API for Assignment 2 using Node, Express, TypeORM and MS SQL Server",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "argon2": "^0.44.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "mssql": "^11.0.1",
+    "reflect-metadata": "^0.2.2",
+    "typeorm": "^0.3.29"
+  },
+  "devDependencies": {
+    "@types/argon2": "^0.14.1",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^20.19.41",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5"
+  }
+}

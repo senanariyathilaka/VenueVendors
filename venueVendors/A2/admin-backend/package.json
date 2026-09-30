@@ -1,0 +1,36 @@
+{
+  "name": "admin-backend",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Admin GraphQL backend for Assignment 2",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "jest --runInBand",
+    "test:watch": "jest --watch"
+  },
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "graphql": "^16.9.0",
+    "graphql-http": "^1.22.4",
+    "mssql": "^11.0.1",
+    "reflect-metadata": "^0.2.2",
+    "ruru": "^2.0.0",
+    "typeorm": "^0.3.29"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^20.19.41",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "5.9.3"
+  }
+}
