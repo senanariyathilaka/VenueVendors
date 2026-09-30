@@ -22,6 +22,6 @@ export const AppDataSource = new DataSource({
   migrations: [],
   subscribers: [],
   options: {
-    encrypt: false,
+    encrypt: true,
   },
 });
